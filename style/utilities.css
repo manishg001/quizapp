@@ -1,0 +1,15 @@
+/* Adding universal styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* defining predefine colors */
+:root {
+  --primary: #3dbfd3;
+  --dark: #161616;
+  --pure: #ffffff;
+  --border: #00e1ff;
+  --light: #bcbcbc;
+}

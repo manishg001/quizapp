@@ -1,0 +1,57 @@
+
+/* Responsive design for screens with max-width 700px */
+@media screen and (max-width: 700px) {
+    #welcome_section {
+      width: 500px;
+    }
+    .user_info input {
+      width: 200px;
+    }
+    .category_button button {
+      width: 150px;
+      height: 45px;
+    }
+    .heading_style {
+      font-size: 15px;
+    }
+    .heading h3 {
+      font-size: 12px;
+    }
+  }
+  
+  /* Responsive design for screens with max-width 500px */
+  @media screen and (max-width: 500px) {
+    #welcome_section {
+      width: 350px;
+    }
+    .user_info input {
+      width: 150px;
+    }
+    .category_button button {
+      width: 100px;
+      height: 55px;
+    }
+    #question_box {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  /* Keyframe animation for bold font */
+  @keyframes bold_font {
+    0% {
+      font-weight: 100;
+    }
+    50% {
+      text-shadow: 1px 1px rgb(44, 82, 97);
+      font-weight: 300;
+    }
+    85% {
+      font-weight: 700;
+    }
+    100% {
+      text-shadow: 1px 1px rgb(36, 101, 126);
+      font-weight: 900;
+    }
+  }
+  
